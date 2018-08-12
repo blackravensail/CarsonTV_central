@@ -15,7 +15,7 @@ def lister():
 def checker():
     return "Working!", 200
 
-@app.route('/<path:path>')
+@app.route('/media/<path:path>')
 def send_file(path):
     return send_from_directory(CarsonMedia, path)
 

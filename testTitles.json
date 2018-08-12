@@ -35,9 +35,7 @@
         "tall": "tall.jpg",
         "location": {
             "ipfs": "lksdjfklskdjfk",
-            "http": [
-                "192.168.1.1:6000/CarsonMedia/Blue Planet II"
-            ]
+            "http": "Blue Planet II"
         },
         "title": "Blue Planet II",
         "release_date": "October 21, 2017",
@@ -63,9 +61,7 @@
         "release_date": "October 21, 2003",
         "location": {
             "ipfs": "lksdjfklskdjfk",
-            "html": [
-                "192.168.1.1:6000/CarsonMedia/Secondhand Lions"
-            ]
+            "http": "192.168.1.1:6000/CarsonMedia/Secondhand Lions"
         },
         "captions": {
             "English": "lksjflk",

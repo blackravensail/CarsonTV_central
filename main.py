@@ -2,13 +2,15 @@ from flask import Flask, request, make_response
 import json
 import requests
 import time
+from copy import deepcopy as dc
 
 app = Flask(__name__)
 
 def updateUPS(list):
+    UPS = {}
     for server in list:
         r = requests.get(server + "/list")
-        UPS[server] = set(r.getjson()["titles"])
+        UPS[server] = set(r.json()["titles"])
     return UPS
 
 def add_cors_headers(response):
@@ -42,16 +44,18 @@ def get_json():
 
     UPS = updateUPS(myServers)
 
-    for id in userTitleList:
-        titles[id] = titleList[id]
-        titles[id]["location"] = "" 
+    titles = {}
+
+    for id in userData[userID]["titles"]:
+        titles[id] = dc(titleList[id])
+        location = ""
         for server in UPS:
             if id in UPS[server]:
-                titles[id]["location"] = server + "/" + titleList[id]["location"]["http"]
+                location = server + "/media/" + id
                 break
-        if titles[id]["location"] == "":
-            titles[id]["location"] = "http://ipfs.io/ipfs/" + titleList[id]["location"]["ipfs"]
-
+        if location == "":
+            location = "http://ipfs.io/ipfs/" + titleList[id]["location"]["ipfs"]
+        titles[id]["location"] = location
     r = make_response(json.dumps({"titles":titles, "pdata":userData[userID]["pdata"]}))
 
     r.headers['Access-Control-Allow-Origin'] = "*"
