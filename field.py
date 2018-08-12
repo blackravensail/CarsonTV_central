@@ -1,12 +1,13 @@
 from flask import Flask, request, send_from_directory
-
-CarsonMedia = ""
+import os
+import json
+CarsonMedia = "C:\\Users\\blake\\Documents\\WebDev\\CarsonTVJSONServer\\TestFolder"
 
 # set the project root directory as the static folder, you can set others.
 app = Flask(__name__, static_url_path='')
 
 @app.route('/list')
-def checker():
+def lister():
     lst = os.listdir(CarsonMedia)
     return json.dumps({"titles": lst}), 200
 
@@ -18,5 +19,9 @@ def checker():
 def send_file(path):
     return send_from_directory(CarsonMedia, path)
 
+@app.route('/')
+def default():
+    return "Success!"
+
 if __name__ == "__main__":
-    app.run()
+    app.run(debug=True, host= '0.0.0.0')
