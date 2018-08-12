@@ -53,13 +53,12 @@ def get_json():
             if id in UPS[server]:
                 location = server + "/media/" + id
                 break
-        if location == "":
-            location = "http://ipfs.io/ipfs/" + titleList[id]["location"]["ipfs"]
         titles[id]["location"] = location
+        if location == "":
+            titles.pop(id)
+    
     r = make_response(json.dumps({"titles":titles, "pdata":userData[userID]["pdata"]}))
-
     r.headers['Access-Control-Allow-Origin'] = "*"
-
     return r
 
 
@@ -99,8 +98,4 @@ def default():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
-
-
-
     

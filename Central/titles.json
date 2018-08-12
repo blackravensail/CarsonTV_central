@@ -15,10 +15,6 @@
             "Fantasy"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmRJcv4YDPumQNLqpuDJeUCv1CtsGVumsAqG9hPrPDpori",
-            "http": "American Dragon"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -355,10 +351,6 @@
             "Documentary"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmQsgkQDNjobMKt9QR8t4SWW3u4HgHdnziVeRwUngEMS6p",
-            "http": "Blue Planet II"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -425,10 +417,6 @@
             "Sci-Fi"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmVGiZmpY5c3oCoxgnL5wuH2TZ3UHeGVvdXWNarygtbwQF",
-            "http": "CyberChase"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -1050,10 +1038,6 @@
             "Sci-Fi"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmRwWApXCMEuKAoPPB7G1CzWNnSRqZoGqU1L9gGuSFZM73",
-            "http": "FireFly"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -1159,10 +1143,6 @@
             "Family"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmbCFnFEJarQcgi1SpzmNfQMyVJWqXdNsWBXDQEwfaoULq",
-            "http": "George Shrinks"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -1430,10 +1410,6 @@
             "Sci-Fi"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmZn4ckf8c6hMbswk5gLng4FEQr6SUUcKUzNuNVqRz5n8t",
-            "http": "Kim Possible"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -1972,10 +1948,6 @@
             "Sci-Fi"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmQizgsXjyxCSgVH6gwpseC52hJHn6cWBuxt9neyrkfaSz",
-            "http": "Phineas and Ferb"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -3056,10 +3028,6 @@
             "Documentary"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmZBH5W8bdUF6SnAkYqJw1LQ4eG1K6WM42wEEWwLXS5p12",
-            "http": "Planet Earth II"
-        },
         "ep_map": [
             {
                 "title": "Season 1",
@@ -3122,10 +3090,6 @@
             "Sci-Fi"
         ],
         "type": "series",
-        "location": {
-            "ipfs": "QmSyFZ4bner4Pf7ExjU3fgMznb79rniH76sakahizJeUh4",
-            "http": "Wallace And Gromit"
-        },
         "ep_map": [
             {
                 "title": "Original Three",
@@ -3187,10 +3151,6 @@
             "Romance"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmREtSait7JJfHpQwp1dbcr8FaamkciU7KAsPtRgDuLB8W",
-            "http": "Aladdin"
-        },
         "trailer": "Aladdin.trailer",
         "feature": "Aladdin (1992) 1080p ENG-ITA MultiSub x264 bluray -Shiv@ 1.mp4"
     },
@@ -3208,10 +3168,6 @@
             "Sci-Fi"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmejfbRg1DYP1Lv2fVeEpY9FubFJsVH6EbpqE2ar3BDMGX",
-            "http": "Back to the Future (1985)"
-        },
         "trailer": "Back To The Future (1985) Theatrical Trailer - Michael J. Fox Movie HD.trailer",
         "feature": "Back.to.the.Future.1985.720p.BrRip.x264.YIFY.mp4"
     },
@@ -3229,10 +3185,6 @@
             "Sci-Fi"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmVEAuEp8p546qSXpM2vxjERFC4ogAKb2GpJSThdx7WoZp",
-            "http": "Back to the Future Part 2 (1989)"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Back.to.the.Future.Part.2.1989.1080p.Brrip.x264.Deceit.YIFY.mp4"
     },
@@ -3251,10 +3203,6 @@
             "Western"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmdHggDRdwmHMmRojQVwEUKumLALTunb1K8zLYUiPc4ccj",
-            "http": "Back to the Future Part 3 (1990)"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Back.to.the.Future.Part.3.1990.1080p.Brrip.x264.Deceit.YIFY.mp4"
     },
@@ -3273,10 +3221,6 @@
             "Romance"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmQtmnbDHHyi1nh4pHBuJcajgcyea4dfyQpLUmNEFRuySi",
-            "http": "Big Fish"
-        },
         "trailer": "Big Fish.trailer",
         "feature": "Big.Fish.2003.1080p.BluRay.x264.anoXmous_.mp4"
     },
@@ -3296,10 +3240,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmXZ2vmrhu1b2DEB11Pb9WjknwN14PDen3wuXkJQx8MMce",
-            "http": "Brother Bear"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Brother Bear.mp4"
     },
@@ -3316,10 +3256,6 @@
             "Comedy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmahVE2wq3SHU2tyvU7KWqhpdjNGk69YFbb5CQKYe215qf",
-            "http": "Captain Ron"
-        },
         "trailer": "Captain Ron trailer HD.trailer",
         "feature": "Captain.Ron.1992.1080p.HDRip.x264.AAC2.0-FGT 1.mp4"
     },
@@ -3338,10 +3274,6 @@
             "Sport"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "Qmd3pN7P7rgFoyHFgMHbjWTSUJTqvqGZN7YeWoYjcLhV8B",
-            "http": "Cars"
-        },
         "trailer": "Cars.trailer",
         "feature": "Cars.2006.1080p.BluRay.x264.AAC-ETRG.mp4"
     },
@@ -3359,10 +3291,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmUz6LmWxHvTPmeGet7TGBXgAsxRRMpKn3hjZmWE7Htohp",
-            "http": "Curse of the Black Pearl"
-        },
         "trailer": "Pirates of the Caribbean_ The Curse of the Black Pearl Official Trailer 1 (2003) HD.trailer",
         "feature": "Pirates.of.the.Caribbean.Curse.of.the.Black.Pearl.2003.1080p.BrRip.x264.Deceit.YIFY.mp4"
     },
@@ -3378,10 +3306,6 @@
             "Comedy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "Qme4biuEucwiSHzagBz1FFEKPY6yFJ7DJrjm48qG76zBgB",
-            "http": "Ferris Bueller's Day Off"
-        },
         "trailer": "Ferris Bueller's Day Off (1986) Official Trailer - Matthew Broderick Movie.trailer",
         "feature": "Ferris.Buellers.Day.Off.1986.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3401,10 +3325,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "Qmah1iR8P6JZdwWy4bXMhYedXhNxH6kcgESGEJP9g6kXpd",
-            "http": "Finding Nemo"
-        },
         "trailer": "Finding Nemo.trailer",
         "feature": "Finding.Nemo.2003.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3422,10 +3342,6 @@
             "Family"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmaNJB2mwAaWQVmwS7gy4wpfQA2jDrnU75Fq9ba4tEQHkM",
-            "http": "Fly Away Home"
-        },
         "trailer": "Fly Away Home.trailer",
         "feature": "Fly.Away.Home.1996.720p.BluRay.x264.YIFY.mp4"
     },
@@ -3442,10 +3358,6 @@
             "Romance"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmVRA7ZYMwZFpxCKvGJxeVUzW4t4T6iRaPY9kzrAiTALSa",
-            "http": "Forrest Gump"
-        },
         "trailer": "Forrest Gump - Trailer.trailer",
         "feature": "Forrest.Gump.1994.720p.BluRay.x264-SiNNERS 1.mp4"
     },
@@ -3463,10 +3375,6 @@
             "Family"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmS9QZmV18dXt6DqpiPgUhj5gee1aYYtVR5UFf8Yu9sZ1Y",
-            "http": "Free Whily"
-        },
         "trailer": "Free Willy.trailer",
         "feature": "Free.Willy.1993.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3485,10 +3393,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmZxcCamTrm8sXYCcSFHb7S5YUQ7d3aK1Sx8hP4ppKfrYk",
-            "http": "Lemony Snicket's A Series of Unfortunate Events (2004)"
-        },
         "trailer": "A Series of Unfortunate Events (2004) - Trailer.trailer",
         "feature": "Lemony.Snickets.2004.1080p.BluRay.X264.YIFY.mp4"
     },
@@ -3510,10 +3414,6 @@
             "Sci-Fi"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmZZkKhCf26tsH7Q74RgDrx5zWJ5tKGb3NY7imxDCBoCjy",
-            "http": "Lilo and Stitch"
-        },
         "trailer": "lio_and_stitch.trailer",
         "feature": "Lilo.and.Stitch.2002.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3533,10 +3433,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmbynG2cvGHJe8ZCM51jnPuJWSThPpPoAT8LjeTT5nCXij",
-            "http": "Monsters Inc (2001)"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Monsters.Inc.2001.1080p.BrRip.x264.YIFY.mp4"
     },
@@ -3557,10 +3453,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmantmYZGLNDV3k24NKVKvPH4pvsPNYiDkErka6GgoFfBs",
-            "http": "Ratatouille (2007)"
-        },
         "trailer": "Ratatouille (2007) Official HD Trailer [1080p].trailer",
         "feature": "Ratatouille.2007.1080p.BrRip.x264.YIFY.mp4"
     },
@@ -3578,10 +3470,6 @@
             "Family"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmWePLXhLmTkykxkB4oEpB4jb9UvncowGg293zLY1fWUGK",
-            "http": "Secondhand Lions"
-        },
         "trailer": "Secondhand Lions.trailer",
         "feature": "Secondhand.Lions.2003.1080p.BluRay.H264.AAC-RARBG.mp4"
     },
@@ -3601,10 +3489,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmQ2EXQLjZkYVb9J4LPwsFq9647JjXPHmz7udhbf42QgQb",
-            "http": "Shrek"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Shrek.2001.720p.BluRay.x264.YIFY.mp4"
     },
@@ -3625,10 +3509,6 @@
             "Romance"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmQbkW22MaUqtXEtJJykv6Qs1yhNxAZ3oP1azZhSiADRsp",
-            "http": "Shrek 2"
-        },
         "trailer": "Shrek 2 - Official Trailer 2004 [HD].trailer",
         "feature": "Shrek.2.2004.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3645,10 +3525,6 @@
             "Family"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmSVBUbcREM9ZAPZhuvC7Lch7YysxC8nY5gPe5LFwN6DCb",
-            "http": "Swiss Family Robinson (1960)"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Swiss.Family.Robinson.1960.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3667,10 +3543,6 @@
             "Romance"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmbZA3pnjhvWXKuDUuv6oQAqbvUdiqk2Gj7YtuQNH6d2aW",
-            "http": "Tarzan (1999)"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Tarzan.1999.1080p.BrRip.x264.YIFY.mp4"
     },
@@ -3690,10 +3562,6 @@
             "Mystery"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmbuTNNcRgVJAMXjT2zMfWqU4AiH4HmeK3mu9o3RsnTYEa",
-            "http": "The Adventures of Tintin (2011)"
-        },
         "trailer": "The Adventures of Tintin Movie Trailer Official (HD).trailer",
         "feature": "The.Adventures.of.Tintin.2011.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3713,10 +3581,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "Qmed7LMiKozzEd3BfDfhwpM4mGZuP2rjur3LS1bqnPszM2",
-            "http": "The Emperor's New Groove (2000)"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "The.Emperors.New.Groove.2000.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3735,10 +3599,6 @@
             "Family"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmaE8i18Rx8fNzUH6dNJDY975nYvbiuNKCtJ57SunwMixa",
-            "http": "The Incredibles"
-        },
         "trailer": "The Incredibles - Official Trailer [HD].trailer",
         "feature": "The.incredibles.2004.1080p.bluray.ac3.x264-etrg-1.mp4"
     },
@@ -3756,10 +3616,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmeRtg7oQMufJ7HciSnkrm5Jhx1CRHqw9uC332TKZnonEW",
-            "http": "The Indian in the Cupboard"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "The.Indian.in.The.Cupboard.1995.1080p.BluRay.x264.AAC-ETRG.mp4"
     },
@@ -3781,10 +3637,6 @@
             "Sci-Fi"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "Qmdx8Kun5ac4oEnZHF1TAW9C91msk4V16vXRihWYkKRZQC",
-            "http": "The Iron Giant"
-        },
         "trailer": "The Iron Giant_ Signature Edition - Official Trailer [HD].trailer",
         "feature": "The.Iron.Giant.1999.SE.Bluray.1080p.DTS-HD.x264-Grym 1.mp4"
     },
@@ -3804,10 +3656,6 @@
             "Musical"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "Qmacms16wsTQ7Q4LRFUXSXaBFMCj8zyk6hiko6KguNQodQ",
-            "http": "The Lion King"
-        },
         "trailer": "The Lion King Blu-Ray - Official Trailer [HD].trailer",
         "feature": "The.Lion.King.1994.BluRay.720p.x264.YIFY.mp4"
     },
@@ -3826,10 +3674,6 @@
             "Sport"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmWFAAiqHyDuJB11rfQFnnpfMQLqEqStKyBJf1JchD9e4x",
-            "http": "The Sandlot (1993)"
-        },
         "trailer": "The Sandlot (1993) - Trailer.trailer",
         "feature": "The.Sandlot.1993.BluRay.1080p.x264.YIFY.mp4"
     },
@@ -3849,10 +3693,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmXn8Vez7kaq1dW815Gj3Vjo9sMJ4HZ6pyirHeL7SKBjsS",
-            "http": "Toy Story"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Toy.Story.1995.1080p.BRrip.x264.YIFY.mp4"
     },
@@ -3872,10 +3712,6 @@
             "Fantasy"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmeV2dcgTDXEVr1gYLqPyicHhDNLDYB1mB4f64ESvziLo1",
-            "http": "Toy Story 2"
-        },
         "trailer": "Toy Story 2 - Official Trailer 1999 [HD].trailer",
         "feature": "Toy.Story.2.1999.1080p.BRrip.x264.YIFY.mp4"
     },
@@ -3894,10 +3730,6 @@
             "Family"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmPB6Q12kHdMCUiCiJpVtzUzUqtZZiPmwNjZ6iDp1XVNfG",
-            "http": "Up (2009)"
-        },
         "trailer": "Up - Official Pixar Trailer HD 1080p (2009).trailer",
         "feature": "Up.2009.1080p.BluRay.x264.YIFY.mp4"
     },
@@ -3915,10 +3747,6 @@
             "Family"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "QmactHSCajgBZdBvU5QBSmmKJLf1jKU6DnRA3Kathd5oyF",
-            "http": "WALL-E"
-        },
         "trailer": "WALL\u00b7E - Official Trailer 2008 [HD].trailer",
         "feature": "WALL-E.2008.1080p.BrRip.x264.YIFY.mp4"
     },
@@ -3934,10 +3762,6 @@
             "Drama"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "n",
-            "http": "The Basket"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "The Basket-3.mp4"
     },
@@ -3953,10 +3777,6 @@
             "Documentary"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "n",
-            "http": "Food Inc"
-        },
         "trailer": "foodinc.trailer",
         "feature": "Food Inc-1.mp4"
     },
@@ -3974,10 +3794,6 @@
             "Crime"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "n",
-            "http": "Tower Heist"
-        },
         "trailer": "movie.trailer",
         "feature": "Tower Heist-4.mp4"
     },
@@ -3995,10 +3811,6 @@
             "Drama"
         ],
         "type": "movie",
-        "location": {
-            "ipfs": "n",
-            "http": "Holes"
-        },
         "trailer": "videoplayback.trailer",
         "feature": "Holes-2.mp4"
     }
