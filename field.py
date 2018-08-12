@@ -1,7 +1,7 @@
 from flask import Flask, request, send_from_directory
 import os
 import json
-CarsonMedia = "C:\\Users\\blake\\Documents\\WebDev\\CarsonTVJSONServer\\TestFolder"
+CarsonMedia = "E:\\CarsonMedia"
 
 # set the project root directory as the static folder, you can set others.
 app = Flask(__name__, static_url_path='')
@@ -24,4 +24,4 @@ def default():
     return "Success!"
 
 if __name__ == "__main__":
-    app.run(debug=True, host= '0.0.0.0')
+    app.run(debug=True, host= '0.0.0.0', port=8081)
