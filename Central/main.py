@@ -92,4 +92,4 @@ def default():
     return "Hi, this is the JSON server for CarsonTV"
 
 if __name__ == "__main__":
-    app.run(debug=True, port=8081)
+    app.run(debug=True, host= '0.0.0.0', port=8081)
