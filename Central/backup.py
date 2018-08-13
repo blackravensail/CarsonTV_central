@@ -1,20 +1,8 @@
 from flask import Flask, request, make_response
 import json
-import requests
-import time
-from copy import deepcopy as dc
 
 app = Flask(__name__)
 
-def updateUPS(list):
-    UPS = {}
-    for server in list:
-        try:
-            r = requests.get(server + "/list")
-            UPS[server] = set(r.json()["titles"])
-        except:
-            pass
-    return UPS
 
 def add_cors_headers(response):
     response.headers['Access-Control-Allow-Origin'] = '*'
@@ -25,42 +13,30 @@ def add_cors_headers(response):
             response.headers['Access-Control-Allow-Headers'] = headers
     return response
 app.after_request(add_cors_headers)
-'''
+
 with open("/home/blakewintermute/mysite/titles.json","r") as f:
     titleList = json.load(f)
 with open("/home/blakewintermute/mysite/userData.json","r") as f:
     userData = json.load(f)
-'''
-with open("titles.json","r") as f:
-    titleList = json.load(f)
-with open("userData.json","r") as f:
-    userData = json.load(f)
+
 
 @app.route('/json')
 def get_json():
     userID = request.args.get("UserID")
 
+    if userID == "master":
+        return titleList
+
     if userID not in userData:
-        return userID + " is not a User", 401
-
-    myServers = userData[userID]["servers"]
-
-    UPS = updateUPS(myServers)
+        return "Not a User", 401
 
     titles = {}
 
     for id in userData[userID]["titles"]:
-        titles[id] = dc(titleList[id])
-        location = ""
-        for server in UPS:
-            if id in UPS[server]:
-                location = server + "/media/" + id
-                break
-        titles[id]["location"] = location
-        if location == "":
-            titles.pop(id)
-    
-    r = make_response(json.dumps({"titles":titles, "pdata":userData[userID]["pdata"]}))
+        titles[id] = titleList[id]
+
+    r = make_response(json.dumps({"titles":titles, "pdata":userData[userID]["pdata"], "serverList": userData[userID]["servers"]}))
+    #r.headers.add('Access-Control-Allow-Origin', '*')
     r.headers['Access-Control-Allow-Origin'] = "*"
     return r
 
@@ -98,7 +74,3 @@ def updateProgress():
 @app.route('/')
 def default():
     return "Hi, this is the JSON server for CarsonTV"
-
-if __name__ == "__main__":
-    app.run(debug=True)
-    
