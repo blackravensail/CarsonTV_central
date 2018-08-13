@@ -22,13 +22,8 @@ def add_cors_headers(response):
             response.headers['Access-Control-Allow-Headers'] = headers
     return response
 app.after_request(add_cors_headers)
-'''
-with open("/home/blakewintermute/mysite/titles.json","r") as f:
-    titleList = json.load(f)
-with open("/home/blakewintermute/mysite/userData.json","r") as f:
-    userData = json.load(f)
-'''
-with open("testTitles.json","r") as f:
+
+with open("titles.json","r") as f:
     titleList = json.load(f)
 with open("userData.json","r") as f:
     userData = json.load(f)
@@ -56,7 +51,7 @@ def get_json():
         titles[id]["location"] = location
         if location == "":
             titles.pop(id)
-    
+
     r = make_response(json.dumps({"titles":titles, "pdata":userData[userID]["pdata"]}))
     r.headers['Access-Control-Allow-Origin'] = "*"
     return r
@@ -97,5 +92,4 @@ def default():
     return "Hi, this is the JSON server for CarsonTV"
 
 if __name__ == "__main__":
-    app.run(debug=True)
-    
+    app.run(debug=True, port=8081)
