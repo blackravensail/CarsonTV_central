@@ -3,6 +3,7 @@ import json
 import requests
 import time
 from copy import deepcopy as dc
+import ast
 
 app = Flask(__name__)
 
@@ -66,7 +67,9 @@ def get_json():
 
 @app.route('/update', methods=['POST'])
 def updateProgress():
-    update = json.loads(request.get_data())
+    r = request.get_data()
+    r = str(r)[2:-1]
+    update = json.loads(r)
     uid = update["UserID"]
 
     if uid not in userData:
@@ -89,7 +92,7 @@ def updateProgress():
     else:
         userData[uid]["pdata"][id] = update["progress"]
 
-    with open("/home/blakewintermute/mysite/userData.json", "w") as f:
+    with open("userData.json", "w") as f:
         json.dump(userData, f)
     return '', 200
 
