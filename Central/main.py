@@ -42,8 +42,12 @@ def get_json():
 
     UPS = updateUPS(myServers)
 
-    titles = {}
+    if userData[userID]["type"] == "developer" or userData[userID]["type"] == "admin":
+        uTL = list(titleList.keys())
+    else:
+        uTL = userData[userID]["titles"]
 
+    titles = {}
     for id in userData[userID]["titles"]:
         titles[id] = dc(titleList[id])
         location = ""
