@@ -48,7 +48,7 @@ def get_json():
         uTL = userData[userID]["titles"]
 
     titles = {}
-    for id in userData[userID]["titles"]:
+    for id in uTL:
         titles[id] = dc(titleList[id])
         location = ""
         for server in UPS:
