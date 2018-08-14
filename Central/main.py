@@ -4,6 +4,7 @@ import requests
 import time
 from copy import deepcopy as dc
 import ast
+import os
 
 app = Flask(__name__)
 
@@ -27,9 +28,9 @@ def add_cors_headers(response):
     return response
 app.after_request(add_cors_headers)
 
-with open("titles.json","r") as f:
+with open(os.path.join("central", "titles.json"),"r") as f:
     titleList = json.load(f)
-with open("userData.json","r") as f:
+with open(os.path.join("central", "userData.json"),"r") as f:
     userData = json.load(f)
 
 @app.route('/json')
@@ -92,7 +93,7 @@ def updateProgress():
     else:
         userData[uid]["pdata"][id] = update["progress"]
 
-    with open("userData.json", "w") as f:
+    with open(os.path.join("central", "userData.json"), "w") as f:
         json.dump(userData, f)
     return '', 200
 
